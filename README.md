@@ -6,6 +6,8 @@ A comprehensive reference guide for effective Claude Code usage in software deve
 
 This repository contains a complete set of standards, best practices, and reference materials for using Claude Code as an AI agent in software development. These standards are based on proven methodologies for treating AI as labor rather than just a coding assistant.
 
+**🆕 Now includes [Official Anthropic Best Practices](ANTHROPIC_BEST_PRACTICES.md)** - Direct insights from Anthropic's engineering teams and internal workflows.
+
 ## 🎯 Core Philosophy
 
 - **Think Big, Not Small**: Use vision-level instructions instead of micromanaging individual functions
@@ -26,10 +28,19 @@ The comprehensive reference covering:
 - Feedback and iteration processes
 - Advanced techniques
 
+### [🏢 Official Anthropic Best Practices](ANTHROPIC_BEST_PRACTICES.md) **NEW!**
+Direct insights from Anthropic's engineering teams:
+- Official workflow patterns (Explore-Plan-Code-Commit)
+- Extended thinking integration ("think" → "think hard" → "ultrathink")
+- Multi-Claude workflows and git worktrees
+- Safe YOLO mode with containers
+- Advanced CLAUDE.md management
+- Production automation patterns
+
 ### 📂 Template Files
 - [Claude.md templates](templates/claude-md/) for different project types
 - [Command examples](templates/commands/) for common development tasks
-- [Project structure examples](templates/structures/) for optimal AI comprehension
+- [Official workflow commands](templates/commands/) based on Anthropic patterns
 
 ### 🛠️ Quick Start Examples
 - [Web Application Setup](examples/web-app-setup.md)
@@ -69,6 +80,12 @@ Instead of 5-10X improvements from small prompts, these standards help you achie
 - Systematic quality processes
 - Scalable development workflows
 
+### Official Anthropic Patterns
+- **Explore-Plan-Code-Commit**: Official workflow for complex features
+- **Test-Driven Development**: Anthropic's favorite pattern for verifiable changes
+- **Extended Thinking**: "think" < "think hard" < "think harder" < "ultrathink"
+- **Multi-Claude Workflows**: Parallel development with git worktrees
+
 ### Best-of-N Pattern
 Leverage AI's speed to explore multiple solutions:
 - Generate 3-5 different implementations
@@ -91,6 +108,8 @@ your-project/
 ├── .claude/
 │   └── commands/               # Reusable AI commands
 │       ├── code-review.md
+│       ├── explore-plan-code-commit.md  # NEW: Official pattern
+│       ├── tdd-workflow.md              # NEW: Official TDD pattern
 │       ├── feature-implementation.md
 │       └── integration.md
 ├── src/
@@ -119,12 +138,22 @@ CORE FEATURES:
 ...
 ```
 
-### Command Usage
+### Official Workflow Commands
 ```bash
-# In Claude Code
+# In Claude Code - Official Anthropic patterns:
+/explore-plan-code-commit implement user authentication system
+/tdd-workflow add expense categorization feature
 /code-review src/components/ExpenseList.tsx
 /integrate-parallel-work budget-tracking notifications
-/document-feature password-reset
+```
+
+### Extended Thinking Integration
+```bash
+# Use official thinking levels:
+"think about the best approach for OAuth implementation"
+"think hard about potential security vulnerabilities"  
+"think harder about edge cases we should handle"
+"ultrathink about the architectural implications"
 ```
 
 ## 📋 Quality Standards
@@ -142,6 +171,16 @@ CORE FEATURES:
 - 📊 Leverage subagents for parallel work
 - 🔍 Think first, code second for architecture
 - 📝 Document processes for repeatability
+- 🏢 Follow official Anthropic workflow patterns
+
+## 🆕 What's New
+
+### Recent Additions
+- **Official Anthropic Best Practices**: Direct insights from Anthropic engineering teams
+- **Extended Thinking Patterns**: Official thinking level mappings
+- **Workflow Commands**: Explore-Plan-Code-Commit and TDD patterns
+- **Multi-Claude Strategies**: Git worktrees and parallel development
+- **Production Integration**: Headless mode and CI/CD patterns
 
 ## 🤝 Contributing
 
@@ -154,7 +193,7 @@ This is a living document that improves through real-world usage. Contributions 
 
 ### Types of Contributions Needed
 - Additional project type templates
-- More command examples
+- More command examples based on official patterns
 - Real-world case studies
 - Integration patterns
 - Quality improvement techniques
@@ -168,10 +207,11 @@ MIT License - feel free to use and adapt for your projects.
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
 - [Anthropic API Documentation](https://docs.anthropic.com)
 - [Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Official Anthropic Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
 
 ## ⭐ Acknowledgments
 
-Based on comprehensive Claude Code course materials and real-world development experience using AI labor for software engineering.
+Based on comprehensive Claude Code course materials, official Anthropic engineering best practices, and real-world development experience using AI labor for software engineering.
 
 ---
 

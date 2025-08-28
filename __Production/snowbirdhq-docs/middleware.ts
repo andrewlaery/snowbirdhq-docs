@@ -19,14 +19,14 @@ export function middleware(request: NextRequest) {
     if (!authToken) {
       console.log(`[Middleware] Redirecting to login from ${pathname}`)
       // Redirect to login
-      const loginUrl = new URL('/auth/login', request.url)
+      const loginUrl = new URL('/auth/signin', request.url)
       loginUrl.searchParams.set('redirectTo', pathname)
       return NextResponse.redirect(loginUrl)
     }
   }
   
-  // If authenticated user tries to access login page, redirect to admin
-  if (pathname === '/auth/login') {
+  // If authenticated user tries to access signin page, redirect to admin
+  if (pathname === '/auth/signin') {
     const authToken = request.cookies.get('supabase-auth-token')
     if (authToken) {
       console.log(`[Middleware] Authenticated user accessing login, redirecting to admin`)

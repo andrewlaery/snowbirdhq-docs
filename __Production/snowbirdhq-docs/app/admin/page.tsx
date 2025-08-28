@@ -34,7 +34,7 @@ export default function AdminPage() {
       // No auth token, redirect to login
       console.log('[Admin] No valid auth token, redirecting to login')
       setAuthStatus('denied')
-      router.replace('/auth/login?from=admin')
+      router.replace('/auth/signin?from=admin')
     }
   }, [router])
 
@@ -42,7 +42,7 @@ export default function AdminPage() {
     console.log('[Admin] Signing out...')
     // Clear auth cookie
     document.cookie = 'supabase-auth-token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT'
-    router.push('/auth/login')
+    router.push('/auth/signin')
   }
 
   if (authStatus === 'checking') {

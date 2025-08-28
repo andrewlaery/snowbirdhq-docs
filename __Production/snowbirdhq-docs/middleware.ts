@@ -7,8 +7,11 @@ export function middleware(request: NextRequest) {
   
   console.log(`[Middleware] Checking path: ${pathname}`)
   
-  // Only protect /admin routes
-  if (pathname.startsWith('/admin')) {
+  // Define protected routes - only admin and debug pages need authentication
+  const protectedPaths = ['/admin', '/debug', '/debug-auth']
+  const isProtectedPath = protectedPaths.some(path => pathname.startsWith(path))
+  
+  if (isProtectedPath) {
     // Get authentication tokens from cookies
     const authToken = request.cookies.get('supabase-auth-token')
     console.log(`[Middleware] Auth token present: ${!!authToken}`)

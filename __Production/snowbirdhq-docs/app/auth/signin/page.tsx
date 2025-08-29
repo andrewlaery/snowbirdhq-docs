@@ -2,6 +2,11 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { headers } from 'next/headers'
+
+// Force dynamic rendering and prevent caching
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 export default function SignInPage() {
   const [email, setEmail] = useState('')

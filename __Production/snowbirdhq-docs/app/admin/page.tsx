@@ -4,6 +4,10 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
+// Force dynamic rendering and prevent caching
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 export default function AdminPage() {
   const router = useRouter()
   const [authStatus, setAuthStatus] = useState<'checking' | 'authenticated' | 'denied'>('checking')

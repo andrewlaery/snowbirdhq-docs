@@ -1,0 +1,20 @@
+{
+  "title": "Lakefront Luxury",
+  "location": "Queenstown Central",
+  "capacity": 6,
+  "access": "public",
+  "body": {
+    "raw": "\n# Welcome to Lakefront Luxury\n\nYour premium lakeside retreat in the heart of Queenstown.\n\n## Quick Info\n- **Capacity**: 6 guests\n- **Location**: Queenstown Central\n- **WiFi**: LakefrontGuest / Welcome2024!\n\n## Check-in Information\n- **Check-in time**: 3:00 PM\n- **Check-out time**: 10:00 AM\n- **Key collection**: Lockbox at front door (code sent via SMS)\n\n## House Rules\n1. No smoking inside the property\n2. No parties or events\n3. Quiet hours: 10 PM - 8 AM\n4. Maximum occupancy: 6 guests\n\n## Emergency Contacts\n- **Emergency Services**: 111\n- **Property Manager**: +64 21 XXX XXXX\n- **After-hours Support**: +64 21 YYY YYYY\n",
+    "code": "var Component=(()=>{var a=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(r,n)=>()=>(n||r((n={exports:{}}).exports,n),n.exports),x=(r,n)=>{for(var i in n)c(r,i,{get:n[i],enumerable:!0})},l=(r,n,i,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let t of g(n))!p.call(r,t)&&t!==i&&c(r,t,{get:()=>n[t],enumerable:!(o=u(n,t))||o.enumerable});return r};var y=(r,n,i)=>(i=r!=null?a(m(r)):{},l(n||!r||!r.__esModule?c(i,\"default\",{value:r,enumerable:!0}):i,r)),k=r=>l(c({},\"__esModule\",{value:!0}),r);var s=f((j,h)=>{h.exports=_jsx_runtime});var L={};x(L,{default:()=>X,frontmatter:()=>M});var e=y(s()),M={title:\"Lakefront Luxury\",location:\"Queenstown Central\",capacity:6,access:\"public\"};function d(r){let n=Object.assign({h1:\"h1\",p:\"p\",h2:\"h2\",ul:\"ul\",li:\"li\",strong:\"strong\",ol:\"ol\"},r.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h1,{children:\"Welcome to Lakefront Luxury\"}),`\n`,(0,e.jsx)(n.p,{children:\"Your premium lakeside retreat in the heart of Queenstown.\"}),`\n`,(0,e.jsx)(n.h2,{children:\"Quick Info\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Capacity\"}),\": 6 guests\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Location\"}),\": Queenstown Central\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"WiFi\"}),\": LakefrontGuest / Welcome2024!\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Check-in Information\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Check-in time\"}),\": 3:00 PM\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Check-out time\"}),\": 10:00 AM\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Key collection\"}),\": Lockbox at front door (code sent via SMS)\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"House Rules\"}),`\n`,(0,e.jsxs)(n.ol,{children:[`\n`,(0,e.jsx)(n.li,{children:\"No smoking inside the property\"}),`\n`,(0,e.jsx)(n.li,{children:\"No parties or events\"}),`\n`,(0,e.jsx)(n.li,{children:\"Quiet hours: 10 PM - 8 AM\"}),`\n`,(0,e.jsx)(n.li,{children:\"Maximum occupancy: 6 guests\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Emergency Contacts\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Emergency Services\"}),\": 111\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Property Manager\"}),\": +64 21 XXX XXXX\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"After-hours Support\"}),\": +64 21 YYY YYYY\"]}),`\n`]})]})}function C(r={}){let{wrapper:n}=r.components||{};return n?(0,e.jsx)(n,Object.assign({},r,{children:(0,e.jsx)(d,r)})):d(r)}var X=C;return k(L);})();\n;return Component;"
+  },
+  "_id": "properties/lakefront-luxury/index.mdx",
+  "_raw": {
+    "sourceFilePath": "properties/lakefront-luxury/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "properties/lakefront-luxury",
+    "contentType": "mdx",
+    "flattenedPath": "properties/lakefront-luxury"
+  },
+  "type": "Property",
+  "slug": "lakefront-luxury"
+}
